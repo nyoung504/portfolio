@@ -1,0 +1,23 @@
+nav {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-around;
+    color: #556c8b;
+}
+    
+.fas {
+    font-size: 50px;
+    color: white;
+}
+
+nav a {
+  font-family: 'Abel', sans-serif;
+  font-size: 20px;
+  margin: 0 5px;
+  text-decoration: none;
+  color: #556c8b;
+}
+
+nav a:hover {
+    color: #0e9b9b;
+}

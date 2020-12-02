@@ -1,0 +1,45 @@
+/*Main container for flexbox*/
+.pjbox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  font-family: 'Abel', sans-serif;
+}
+
+.project {
+  /* each box */
+  height: 400px;
+  width: 300px;
+  margin: 10px 0px;
+  padding: 20px;
+  background:#E1E5F4;
+  border: solid black;
+}
+
+.pjimage {
+  display: block;
+  height: 200px;
+  width: 100%;
+}
+
+
+/*
+.project {
+    height: 320px;
+    width: 310px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.projecth {
+    width: 50%;
+    font-size: 20px;
+    color: blue;
+}
+
+
+.custom-github {
+    font-size: 50px;
+    color: blue;
+}

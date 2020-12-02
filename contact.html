@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset=utf-8>
+  <!--testing viewport attributes
+  <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+  <title>Contact Me</title>  
+  <link rel="stylesheet" href="./style.css" integrity="sha512-/e4pU90eKSg+fXT98RTnzA+sQlaE1aBcz/eacVz5nk2+0+b30RVRMQ3KTpdo5KPRNmeHU3Wo/Fqli4cC/3jIIQ==">
+  <!--Adding google font called Abel-->
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+  <!--Adding the icon to the top left corner of the nav -->
+  <script src="https://kit.fontawesome.com/f8761ce5cf.js" crossorigin="anonymous"></script>
+  <!--https://www.w3schools.com/howto/howto_css_download_button.asp-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <!--navbar attributes-->
+  <nav>
+    <div class="icon">
+      <a href=""><i class="fas fa-globe-asia fas"></i></a>
+    </div>
+    <div class="links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact</a>
+      <a href="blog.html">Blog</a>
+      <a href="projects.html">Projects</a>
+    </div>
+  </nav>
+  <!-- nav ends -->
+  <header>
+      <h1 class="c-heading">Contact Me</h1>
+     <!--Flex box and link buttons-->
+      <div class="Plinks">
+        <!--button to download resume-->
+        <div class="link-group">
+          <h2 class="heading2">View Resume</h2>
+          <a href="https://drive.google.com/file/d/1iKpkL1ywy21CFaggOMJ9Mgb85aa9AMnI" target="_blank" download><button class="btn"><i class="fa fa-download"></i>Download</button></a>
+        </div>
+        <!--Link to Github-->
+        <div class="link-group">
+        <h2 class="heading2">Github</h2>
+      <a href="https://github.com/nyoung504" target="_blank"><button class="btn">Github</button></a>
+      </div>
+      <div class="link-group">
+         <!--Link to Linkedin--> 
+        <h2 class="heading2">Linkedin</h2>
+        <a href="https://www.linkedin.com/in/nicole-young-8b73683" target="_blank"><button class ="btn">Linkedin</button></a>
+      </div>
+    </div>
+
+  </header>
+  <!--Adding form from FormSpree-->
+  <div class="container">
+      <form action="https://formspree.io/mnqgkwkb" 
+      method="POST">
+          <h1 class="formtitle">Send a Message</h1>
+          <!--Form area for name and email -->
+          <label for="name">Name</label>
+          <input type="text" name="name">
+          <label for="email">Email</label>
+          <input type="text" name="email">
+          <!--Form area for message area -->
+          <label for="message">Message</label>
+          <textarea name="message"></textarea>
+          </label>
+        </div>
+        <input id="form-submit" type="submit">
+      </form>
+</div>
+</body>
+</html>
